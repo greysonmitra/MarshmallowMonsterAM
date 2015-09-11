@@ -10,10 +10,10 @@ public class MonsterController
 	
 	public MonsterController()
 	{
-		int eyes = 
-		double legs = 
-		double hair = 
-		int noses = 
+		int eyes = 4;
+		double legs = 8;
+		double hair = 1;
+		int noses = 1;
 		boolean hasbellybutton = false;
 		String name = "Fuddy Duddy";
 		
