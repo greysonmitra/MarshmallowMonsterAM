@@ -20,7 +20,6 @@ public class MonsterController
 		myOutput = new MarshmallowOutput();
 		greysonMonster = new MarshmallowMonster(name, eyes, noses, hair, legs, hasbellybutton); //must match constructor in MarhmallowMonster.java
 	}
-	
 	public void start()
 	{
 		myOutput.displayMonsterInfo(greysonMonster.toString());
