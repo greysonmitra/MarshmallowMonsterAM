@@ -9,7 +9,7 @@ public class MarshmallowMonster
 	private double monsterLegs;
 	private boolean monsterBellyButton;
 	
-	private MarshmallowMonster()
+	private MarshmallowMonster();
 	
 	public MarshmallowMonster(String monsterName, int monsterEyes, int monsterNoses, double monsterHair, double monsterLegs, boolean monsterBellyButton )
 	
@@ -24,7 +24,7 @@ public class MarshmallowMonster
 	
 	public String toString()
 	{
-		String monster = "This monster has" + monsterEyes + " eyes, and its' name is " + monsterName;
+		String monster = "This monster has " + monsterEyes + " eyes, " + monsterHair + " hair, " + " and its' name is " + monsterName;
 		
 		return monster;
 	}
