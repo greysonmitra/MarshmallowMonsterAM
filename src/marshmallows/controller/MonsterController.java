@@ -1,7 +1,7 @@
 package marshmallows.controller;
 
 import marshmallow.model.MarshmallowMonster;
-import marshmallow.view.MarshmallowOutput;
+import marshmallows.view.MarshmallowOutput;
 
 public class MonsterController
 {
