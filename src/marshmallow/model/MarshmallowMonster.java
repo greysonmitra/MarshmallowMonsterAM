@@ -89,7 +89,7 @@ public class MarshmallowMonster
 
 	public String toString()
 	{
-		String monster = "This monster has " + monsterEyes + " eyes, " + monsterHair + " hair, " + " and its' name is " + monsterName;
+		String monster = " This monster has " + monsterEyes + " eyes, " + monsterHair + " hair, " + monsterNoses + " Noses, " + monsterLegs + " Legs, " + " and its' name is " + monsterName;
 		
 		return monster;
 	}
