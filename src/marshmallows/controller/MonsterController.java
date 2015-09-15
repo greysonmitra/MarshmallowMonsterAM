@@ -23,5 +23,12 @@ public class MonsterController
 	public void start()
 	{
 		myOutput.displayMonsterInfo(greysonMonster.toString());
+		askQuestions();
+		myOutput.displayMonsterInfo("New Monster Info" + greysonMonster.toString());
+	}
+	
+	private void askQuestions()
+	{
+		
 	}
 }
