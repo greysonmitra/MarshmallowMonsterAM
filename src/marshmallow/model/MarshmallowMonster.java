@@ -26,7 +26,7 @@ public class MarshmallowMonster
 	}
 	
 	//Getters and Setters (I did them out of order, but it goes all getters, then all setters)
-	public String getMonsteName()
+	public String getMonsterName()
 	{
 		return monsterName;
 	}
