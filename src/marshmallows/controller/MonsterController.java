@@ -26,9 +26,10 @@ public class MonsterController
 	}
 	public void start()
 	{
-		myOutput.displayMonsterInfo(greysonMonster.toString());
-		askQuestions();
-		myOutput.displayMonsterInfo("New Monster Info:" + greysonMonster.toString());
+		myOutput.displayMonsterConsole(greysonMonster.toString());
+		myOutput.displayMonsterGUI(greysonMonster.toString());
+		//makeUserMonster();
+		myOutput.displayMonsterGUI("New Monster Info:" + userMonster.toString());
 	}
 	
 	private void askQuestions()
@@ -79,9 +80,9 @@ public class MonsterController
 		userEyes = monsterScanner.nextInt();
 		System.out.println("Type in a number of noses for your monster.");
 		userNoseCount                 = monsterScanner.nextInt();
-		System.out.println("How much hair do you want your monster to have. Type in a floating point or decimal number");
+		System.out.println("How much hair do you want your monster to have? Type in a floating point or decimal number");
 		userHair = monsterScanner.nextDouble();
-		System.out.println("How many Legs do you want your monster to have. Any real number will work");
+		System.out.println("How many Legs do you want your monster to have? Any real number will work");
 		userLegs = monsterScanner.nextDouble();
 		System.out.println("Does your monster have a bellybutton? Type in True or False");
 		userBellyButton = monsterScanner.nextBoolean();
