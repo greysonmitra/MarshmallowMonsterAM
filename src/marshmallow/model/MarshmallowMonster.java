@@ -5,17 +5,23 @@ public class MarshmallowMonster
 	private String monsterName;
 	private int monsterEyes;                               //These are the declarations I think?
 	private int monsterNoses;							   //These are actually variables...
-	private double monsterHair;
+	private double monsterHair;                            //But, variables are declared in the declarations section.
 	private double monsterLegs;
 	private boolean monsterBellyButton;
 	
-	private MarshmallowMonster()
+	public MarshmallowMonster()
 	{
-		
+		monsterName = "";
+		monsterEyes = -9999;
+		monsterNoses = -9191;
+		monsterHair = -.04141;
+		monsterLegs = -.0999;
+		monsterBellyButton = false; 
+				
 	}
 	
 	public MarshmallowMonster(String monsterName, int monsterEyes, int monsterNoses, double monsterHair, double monsterLegs, boolean monsterBellyButton )
-	//^^^ This right here is the constructor I think?
+	//^^^ This right here is the constructor I think? YES IT IS 
 	{
 		this.monsterName = monsterName;
 		this.monsterEyes = monsterEyes;
@@ -86,7 +92,7 @@ public class MarshmallowMonster
 		this.monsterLegs = monsterLegs;
 	}
 	
-
+	/*
 	public String toString()
 	{
 		String monster = " This monster has " + monsterEyes + " eyes, " + monsterHair + " hair, " + monsterNoses + " Noses, " + monsterLegs + " Legs, " + " a " + monsterBellyButton + " bellybutton" + " and its' name is " + monsterName;

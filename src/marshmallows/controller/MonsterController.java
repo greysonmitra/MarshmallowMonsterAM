@@ -2,6 +2,7 @@ package marshmallows.controller;
 
 import marshmallow.model.MarshmallowMonster;
 import marshmallows.view.MarshmallowOutput;
+import marshmallows.view.PopupMonsterDisplay;
 import java.util.Scanner;
 
 public class MonsterController
@@ -10,6 +11,10 @@ public class MonsterController
 	private MarshmallowMonster userMonster;
 	private MarshmallowOutput myOutput;
 	private Scanner monsterScanner;
+	
+	
+	
+	
 	
 	public MonsterController()
 	{
@@ -26,6 +31,8 @@ public class MonsterController
 	}
 	public void start()
 	{
+		
+		/*
 		myOutput.displayMonsterConsole(greysonMonster.toString());
 		myOutput.displayMonsterGUI(greysonMonster.toString());
 		//makeUserMonster();
